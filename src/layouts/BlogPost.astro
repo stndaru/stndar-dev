@@ -52,24 +52,35 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				font-size: 2em;
 				margin: 0 0 0.5em 0;
 				font-weight: 600;
+				line-height: 1.25;
 			}
 			.prose :global(h2) {
-				font-size: 1.8em;
+				font-size: 1.7em;
 				margin: 0 0 0.5em 0;
-				font-weight: 600;
+				font-weight: 700;
+				line-height: 1.25;
 			}
 			.prose :global(h3) {
-				font-size: 1.6em;
+				font-size: 1.5em;
 				margin: 0 0 0.5em 0;
-				font-weight: 500;
+				font-weight: 600;
+				line-height: 1.25;
 			}
 			.prose :global(h4){
 				font-size: 1.4em;
 				font-weight: 500;
+				line-height: 1.25;
 			}
 			.prose :global(h5) {
 				font-size: 1.25em;
-				font-weight: 500;
+				font-weight: 400;
+				line-height: 1.25;
+			}
+			.prose :global(hr) {
+				padding-bottom: 1.5em;
+			}
+			.prose :global(a):hover {
+				text-decoration: underline;
 			}
 			.date {
 				margin-bottom: 0.5em;
