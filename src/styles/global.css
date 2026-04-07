@@ -10,6 +10,9 @@
     .font-playfair {
         font-family: "Playfair Display", serif;
     }
+	.font-jakarta {
+        font-family: "Plus Jakarta Sans", serif;
+    }
 }
 
 
@@ -42,6 +45,7 @@ body {
 main {
 	width: 720px;
 	max-width: calc(100% - 2em);
+	min-height: 80vh;
 	margin: auto;
 	padding: 3em 1em;
 }
@@ -56,12 +60,6 @@ a {
 }
 a:hover {
 	color: var(--accent);
-}
-p {
-	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 2em;
 }
 textarea {
 	width: 100%;
@@ -103,9 +101,6 @@ hr {
 @media (max-width: 720px) {
 	body {
 		font-size: 18px;
-	}
-	main {
-		padding: 1em;
 	}
 }
 
